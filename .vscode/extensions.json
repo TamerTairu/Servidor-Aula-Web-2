@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"vscode-icons-team.vscode-icons",
+		"qwtel.sqlite-viewer",
+		"mikestead.dotenv",
+		"ms-vscode.vscode-typescript-next",
+		"prisma.prisma",
+		"rangav.vscode-thunder-client",
+		"christian-kohler.npm-intellisense"
+	]
+}
