@@ -7,7 +7,7 @@ class AlunosController {
 	constructor() {}
 
 	async getAlunos(req: Request, res: Response) {
-		const alunos = await listarAlunos();
+		const alunos: Aluno[] | undefined = await listarAlunos();
 		console.log(alunos);
 		res.end(JSON.stringify(alunos));
 	}
