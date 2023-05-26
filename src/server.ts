@@ -6,8 +6,9 @@ dotenv.config({
 import Express from "express";
 import roteadorStatic from "./routes/StaticRoutes";
 import roteadorAlunos from "./routes/AlunosRoutes";
+import { promises } from "dns";
 
-const port = process.env.PORT;
+const port: string | undefined = process.env.PORT;
 const app = Express();
 
 app.use(Express.json());
